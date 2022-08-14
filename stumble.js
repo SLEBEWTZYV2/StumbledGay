@@ -62,7 +62,7 @@ const questions = [
     }
 ];
 
-const asciiText = figlet.textSync("VIP", {
+const asciiText = figlet.textSync("STUMBLED G4Y", {
     font: 'Graffiti',
     horizontalLayout: 'default',
     verticalLayout: 'default',
