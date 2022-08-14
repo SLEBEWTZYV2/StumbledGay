@@ -7,7 +7,7 @@ const questions = [
     {
         type: "input",
         name: "authorization",
-        message: color("Authorization keys:"),
+        message: color("Enter Authorization Token:"),
         prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
         suffix: "~",
         validate: function (input) {
