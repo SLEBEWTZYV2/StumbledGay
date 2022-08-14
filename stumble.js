@@ -62,7 +62,7 @@ const questions = [
     }
 ];
 
-const asciiText = figlet.textSync("STUMBLED G4Y", {
+const asciiText = figlet.textSync("VIP", {
     font: 'Graffiti',
     horizontalLayout: 'default',
     verticalLayout: 'default',
@@ -86,7 +86,7 @@ function iStumble(interval, round, authorization) {
             } else if (typeof data == "object") {
                 const date = new Date();
                 let { Id, Username, Country, Region, Crowns, SkillRating } = data.User;
-                const print = `[${color(date.getHours())}:${date.getMinutes()}] ` + [color(Id, "blueBright"), color(Username), color(Country, "red"), color(Region, "yellowBright"), color(Crowns, "greenBright"), color(SkillRating, "whiteBright")].join(" | ");
+                const print = `[${color(date.getHours())}:${date.getMinutes()}] ` + [color(Id, "redBright"), color(Username, "whiteBright"), color(Country, "purple"), color(Region, "yellow"), color(Crowns, "blueBright"), color(SkillRating, "whiteBright")].join(" | ");
                 console.log(print);
             }
         } catch (error) {}
